@@ -1,0 +1,90 @@
+﻿{
+	"quizzes": [
+		{
+			"title": "Ciclo Hidrológico",
+			"description": "descriptionário sobre o Ciclo Hidrológico",
+			"questions": [
+				{
+					"description": "A água é o elemento mais presente na superfície da Terra…",
+					"alternatives": [
+						"A água cobre cerca de 71% da superfície da Terra.",
+						"A água cobre cerca de 63% da superfície da Terra.",
+						"A água cobre cerca de 54% da superfície da Terra.",
+						"A água cobre cerca de 91% da superfície da Terra."
+					],
+					"answer": 0
+				},
+				{
+					"description": "Qual o outro nome para a chuva, que é o retorno da água à Terra?",
+					"alternatives": [
+						"Precipitação.",
+						"Transpiração.",
+						"Granizo.",
+						"Condensação."
+					],
+					"answer": 0
+				},
+				{
+					"description": "Quais os estados físicos da água?",
+					"alternatives": [
+						"Sólido, líquido e gasoso.",
+						"Gelo, nuvens e chuva.",
+						"Oceanos, rios e lagos.",
+						"Chuva, neve e granizo."
+					],
+					"answer": 0
+				},
+				{
+					"description": "Em que consiste o ciclo da água?",
+					"alternatives": [
+						"Circulação da água na Natureza.",
+						"Passagem da água desde as nascentes até nossa casa.",
+						"Passagem da água do estado gasoso a líquido e deste novamente a gasoso.",
+						"Passagem da água do estado gasoso a líquido e deste ao estado sólido."
+					],
+					"answer": 0
+				},
+				{
+					"description": "A água salobra é:",
+					"alternatives": [
+						"Imprópria para consumo.",
+						"Própria para consumo.",
+						"Aquela que contém muito sal.",
+						"Aquela que não contém sal."
+					],
+					"answer": 0
+				},
+				{
+					"description": "No nosso planeta, a água é um recurso:",
+					"alternatives": [
+						"Renovável.",
+						"Mineral.",
+						"Termal.",
+						"Não Renovável."
+					],
+					"answer": 0
+				},
+				{
+					"description": "Água à temperatura ambiente é:",
+					"alternatives": [
+						"Líquida.",
+						"Sólida.",
+						"Gasosa.",
+						"Plasma."
+					],
+					"answer": 0
+				},
+				{
+					"description": "A Terra é conhecida como o planeta azul por causa da presença de(a,o)",
+					"alternatives": [
+						"Água.",
+						"Atmosfera.",
+						"Massas.",
+						"Céu."
+					],
+					"answer": 0
+				}
+			]
+		}
+	]
+}
