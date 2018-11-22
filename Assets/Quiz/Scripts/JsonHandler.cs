@@ -2,7 +2,7 @@
 
 public class JsonHandler {
 
-	public List<Quiz> quizzes;
+	public Quiz quiz;
 
 	public static JsonHandler CreateFromJSON(string jsonString) {
         return UnityEngine.JsonUtility.FromJson<JsonHandler>(jsonString);

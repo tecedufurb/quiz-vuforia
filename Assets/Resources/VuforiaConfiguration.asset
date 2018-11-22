@@ -12,7 +12,7 @@ MonoBehaviour:
   m_Name: VuforiaConfiguration
   m_EditorClassIdentifier: 
   vuforia:
-    vuforiaLicenseKey: AYSQerb/////AAABmedUyCmyPEo3hD2A3El16pcxppM1bk6r3MxUcYqr2QLyUkJjeyGXc87/bZukaMsinJbinzlezHIFNFC/W8KBwQ7Ko2rrBKaidIErilHofzsx3QEq2rv+mNazvYuautP3Hmge1nfzevyi+BIb/nZRGH5uV1LVBBaERzdRH0vEhtStfCKB7iQRikD9Ice4XJAnNmtR4w7K+MvPef6xKpdrY/YjjSsgNWo6vvJDDWElLMf70JBqKncS/kKh3oUoK9cJosaupiCFAm26yVLD7I635AtJK0jJYTKoCjL0zfo2b6BYTlymT0Z/MbPzWrTmfB/v6yQEQF4QYul08zV+ywVLQdSTsJ4mzpSbfAOu0jVf3PSa
+    vuforiaLicenseKey: AXO14gv/////AAABma4DYhp7i0JWhDEILDcZa0UPmEA7KygV6v9BRiWPTXwh+hwk5FmPMAymwLg/ZTrqeISmpjRqa+4jzEcpVKXB8fChPFsM1jL1zD0A0velpKFo4targPKHnUcVzMja2zTGv1ojX2fmAoPls7tn+cyPvaGlwsTXDpsY6nNgTYvQBh9JIUgAcHtwMtbf6LtMk7hThJ1oyKVFqfIrJLa+q7c9epJJxViaN+tRtGvxQETd+zChVqZVUEo8JG7QzxedAQ3/nqFvvT28D54D/0WuQeETYMApQoVwWgi8fJ85oTI4YgopMGuIGFkefhv4hWqWuDqmvuXTvJxcddTCVIBdv48yF1pWWs2w5lmhmipbRU99+XCs
     ufoLicenseKey: QVlmYnBmdi8vLy8vQUFBQUtHa2dXenVSd1VMemd5VzZ0K0w0WVhnMlgyZDNSeTl4eDI0TFIzSUJ1TFQ2bjBvNS9aQktidDhFSklNQXdkdzBWWm1qbU9jcFVOQWEvajRMTGFtUUdtWDAxYWJlNlZlUnk5blVBbnh2Qnp5TVgwckdJbnFySmdUSzYxaGtYZGthT0Jlb1BWRjlVMjh4VFRrZndDdmZ1aUw3aVBueisrQmxqc1JHZ0tzd2VQTG9RNGdMc3lHTTFPV3dHT1JVOXlCZkIvTmx1SkdJc0ZMUE1WTHFZMDhWcVU0bVNyUW03YllVRm5Gb0t5MTRXSUUrVHcybzlkcVZDSzIxZ0hVbWVneWhLQ1lkTVd4RW9SVU5rVGM1WStrS2ZxZnBGbi90cXJSZEhGaFVqQU9XdUd3eC9VMi9yMnhQQnpVd01kWG1FcHdzUUhtUVp4dEhIZ2xoeUtNN0Zmc1pqZXVsVFgxWUtwZXdqK1ZOazVWR1phSVM=
     delayedInitialization: 0
     cameraDeviceModeSetting: -1
@@ -44,9 +44,9 @@ MonoBehaviour:
       ContainsMagnet: 0
   databaseLoad:
     dataSetsToLoad:
-    - Ocupacao-Humana
+    - Habitat-Quiz
     dataSetsToActivate:
-    - Ocupacao-Humana
+    - Habitat-Quiz
   videoBackground:
     clippingMode: 0
     numDivisions: 2
