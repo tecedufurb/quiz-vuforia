@@ -5,11 +5,12 @@ using UnityEngine.UI;
 
 public class GameManager : MonoBehaviour {
 
-	private QuizController quiz;
+	[SerializeField] private QuizController quiz;
 	private AudioManager audio;
 	private int score;
-	private Color rightAnswerColor = new Color32(85, 255, 85, 255);
-	private Color wrongAnswerColor = new Color32(255, 70, 70, 255);
+
+	// private Color rightAnswerColor = new Color32(85, 255, 85, 255);
+	// private Color wrongAnswerColor = new Color32(255, 70, 70, 255);
 
 	private bool answered = false;
 	private int rightAnswers;
@@ -26,9 +27,12 @@ public class GameManager : MonoBehaviour {
 	[SerializeField] private GameObject[] alternativesButtons;
 	[SerializeField] private Text rightAnswersText;
 	[SerializeField] private Text wrongAnswersText;
+	[SerializeField] private Sprite normalColor;
+	[SerializeField] private Sprite rightAnswerColor;
+	[SerializeField] private Sprite wrongAnswerColor;
 
 	void Start () {
-		quiz = new QuizController();
+		// quiz = new QuizController();
 		NextQuestion();
 
 		audio = FindObjectOfType<AudioManager>();
@@ -62,7 +66,7 @@ public class GameManager : MonoBehaviour {
 			else
 				audio.PlayRightAnswerAudio();
 			
-			alternativesButtons[answer].GetComponent<Image>().color = rightAnswerColor;
+			alternativesButtons[answer].GetComponent<Image>().sprite = rightAnswerColor;
 			
 			yield return new WaitForSeconds(delay);
 
@@ -71,7 +75,7 @@ public class GameManager : MonoBehaviour {
 		} else {
 			DecreaseScore();
 			audio.PlayWrongAnswerAudio();
-			alternativesButtons[answer].GetComponent<Image>().color = wrongAnswerColor;
+			alternativesButtons[answer].GetComponent<Image>().sprite = wrongAnswerColor;
 
 			yield return new WaitForSeconds(delay);
 
@@ -108,22 +112,17 @@ public class GameManager : MonoBehaviour {
 		questionPanel.SetActive(false);
 		finalPanel.SetActive(false);
 		foreach (GameObject button in alternativesButtons) {
-			button.GetComponent<Image>().color = Color.white;
+			button.GetComponent<Image>().sprite = normalColor;
 		}
 	}
 
-	// private void IncreaseScore () {
-	// 	score += 10;
-	// 	UpdateScoreText();
-	// }
+	public void PlayQuestionSoundAgain () {
+		if (!answered)
+			audio.PlayQuestionAudio(quiz.GetQuestion().id);
+	}
 
-	// private void DecreaseScore () {
-	// 	score = (score - 5 >= 0) ? score - 5 : 0;
-	// 	UpdateScoreText();
-	// }
+	public Question GetQuestion () {
+		return quiz.GetQuestion();
+	}
 
-	// private void UpdateScoreText () {
-	// 	// scoreText.text = "Pontuação: " + score;
-	// 	rightAnswersText.text = rightAnswers.ToString();
-	// }
 }

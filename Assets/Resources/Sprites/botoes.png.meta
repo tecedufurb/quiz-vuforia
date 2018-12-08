@@ -1,10 +1,12 @@
 fileFormatVersion: 2
-guid: 807b9245acb4ec145914ae78af911bdf
+guid: dd664070aa5f0eb4c9236647f2189fc8
 TextureImporter:
   fileIDToRecycleName:
-    21300000: botoes 1_0
-    21300002: botoes 1_1
-    21300004: botoes 1_2
+    21300000: botoes_0
+    21300002: botoes_1
+    21300004: botoes_2
+    21300006: botoes_3
+    21300008: botoes_4
   externalObjects: {}
   serializedVersion: 4
   mipmaps:
@@ -102,11 +104,11 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: botoes 1_0
+      name: botoes_0
       rect:
         serializedVersion: 2
-        x: 731
-        y: 582
+        x: 290
+        y: 587
         width: 184
         height: 181
       alignment: 0
@@ -116,11 +118,11 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: botoes 1_1
+      name: botoes_1
       rect:
         serializedVersion: 2
-        x: 413
-        y: 298
+        x: 548
+        y: 587
         width: 184
         height: 181
       alignment: 0
@@ -130,13 +132,41 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: botoes 1_2
+      name: botoes_2
       rect:
         serializedVersion: 2
-        x: 40
-        y: 175
+        x: 54
+        y: 424
         width: 867
-        height: 101
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: botoes_3
+      rect:
+        serializedVersion: 2
+        x: 54
+        y: 300
+        width: 867
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: botoes_4
+      rect:
+        serializedVersion: 2
+        x: 54
+        y: 162
+        width: 867
+        height: 100
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}

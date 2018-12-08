@@ -4,6 +4,7 @@
 		"description": "Questionário sobre abelhas aplicado pelo projeto Habitat",
 		"questions": [
 			{
+				"id": 0,
 				"description": "Quais são as divisões do corpo de uma abelha?",
 				"alternatives": [
 					"Cabeça, tórax e abdômen.",
@@ -13,15 +14,17 @@
 				"answer": 0
 			},
 			{
+				"id": 1,
 				"description": "Quantos olhos tem uma abelha?",
 				"alternatives": [
-					"Dois olhos nas laterais e três acima da cabeça.",
+					"Dois olhos na cabeça e dois no tórax.",
 					"Dois olhos na frente da cabeça.",
-					"Dois olhos na cabeça e dois no tórax."
+					"Dois olhos nas laterais e três acima da cabeça."
 				],
-				"answer": 0
+				"answer": 2
 			},
 			{
+				"id": 2,
 				"description": "Por que as abelhas têm antenas?",
 				"alternatives": [
 					"Para tato, audição e olfato.",
@@ -31,33 +34,37 @@
 				"answer": 0
 			},
 			{
+				"id": 3,
 				"description": "O que as abelhas comem?",
 				"alternatives": [
-					"Pólen.",
+					"Outros insetos.",
 					"Flor.",
-					"Outros insetos."
+					"Pólen."
 				],
-				"answer": 0
+				"answer": 2
 			},
 			{
+				"id": 4,
 				"description": "Quais as fases de desenvolvimento das abelhas?",
 				"alternatives": [
-					"Ovo, larva, pupa, adulta.",
 					"Bebê, jovem, adulta, idosa.",
-					"Ovo, larva, alevino, adulta."
+					"Ovo, larva, alevino, adulta.",
+					"Ovo, larva, pupa, adulta."
 				],
-				"answer": 0
+				"answer": 2
 			},
 			{
+				"id": 5,
 				"description": "As abelhas sem ferrão vivem em?",
 				"alternatives": [
-					"Ocos de árvores.",
 					"Favos.",
+					"Ocos de árvores.",
 					"Casas."
 				],
-				"answer": 0
+				"answer": 1
 			},
 			{
+				"id": 6,
 				"description": "O que as abelhas fazem para convencer outras abelhas para seguí-las quando encontram néctar e pólen?",
 				"alternatives": [
 					"Dançam.",
@@ -67,13 +74,14 @@
 				"answer": 0
 			},
 			{
+				"id": 7,
 				"description": "Qual o coletivo de abelhas?",
 				"alternatives": [
-					"Enxame.",
 					"Matilha.",
+					"Enxame.",
 					"Manada."
 				],
-				"answer": 0
+				"answer": 1
 			}
 		]
 	}

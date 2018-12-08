@@ -230,7 +230,7 @@ Transform:
   m_Children:
   - {fileID: 478917656}
   m_Father: {fileID: 0}
-  m_RootOrder: 7
+  m_RootOrder: 8
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &48278856
 MonoBehaviour:
@@ -245,6 +245,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   questionsPanel: {fileID: 523734446}
   game: {fileID: 2141464184}
+  audio: {fileID: 2082890945}
 --- !u!1 &150220990
 GameObject:
   m_ObjectHideFlags: 0
@@ -353,7 +354,7 @@ MonoBehaviour:
       m_Calls: []
     m_TypeName: UnityEngine.UI.MaskableGraphic+CullStateChangedEvent, UnityEngine.UI,
       Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
-  m_Sprite: {fileID: 21300004, guid: 807b9245acb4ec145914ae78af911bdf, type: 3}
+  m_Sprite: {fileID: 21300006, guid: dd664070aa5f0eb4c9236647f2189fc8, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -464,8 +465,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 1}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: 0, y: -100}
-  m_SizeDelta: {x: 0, y: 215.6}
+  m_AnchoredPosition: {x: 22.400024, y: -33.791016}
+  m_SizeDelta: {x: -507.5, y: 281.81}
   m_Pivot: {x: 0.5, y: 1}
 --- !u!114 &195486290
 MonoBehaviour:
@@ -622,7 +623,7 @@ Transform:
   m_Children:
   - {fileID: 1973234272}
   m_Father: {fileID: 0}
-  m_RootOrder: 5
+  m_RootOrder: 6
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &278563418
 MonoBehaviour:
@@ -637,6 +638,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   questionsPanel: {fileID: 523734446}
   game: {fileID: 2141464184}
+  audio: {fileID: 2082890945}
 --- !u!1 &366729254
 GameObject:
   m_ObjectHideFlags: 0
@@ -713,7 +715,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls:
       - m_Target: {fileID: 2141464184}
-        m_MethodName: 
+        m_MethodName: PlayQuestionSoundAgain
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -744,7 +746,7 @@ MonoBehaviour:
       m_Calls: []
     m_TypeName: UnityEngine.UI.MaskableGraphic+CullStateChangedEvent, UnityEngine.UI,
       Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
-  m_Sprite: {fileID: 21300000, guid: 807b9245acb4ec145914ae78af911bdf, type: 3}
+  m_Sprite: {fileID: 21300002, guid: dd664070aa5f0eb4c9236647f2189fc8, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -1049,7 +1051,7 @@ MonoBehaviour:
       m_Calls: []
     m_TypeName: UnityEngine.UI.MaskableGraphic+CullStateChangedEvent, UnityEngine.UI,
       Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
-  m_Sprite: {fileID: 21300004, guid: 807b9245acb4ec145914ae78af911bdf, type: 3}
+  m_Sprite: {fileID: 21300006, guid: dd664070aa5f0eb4c9236647f2189fc8, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -1069,7 +1071,7 @@ Material:
   m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
-  m_Name: marcador-abelha-4Material
+  m_Name: marcador-abelha-1Material
   m_Shader: {fileID: 10752, guid: 0000000000000000f000000000000000, type: 0}
   m_ShaderKeywords: 
   m_LightmapFlags: 5
@@ -1082,7 +1084,7 @@ Material:
     serializedVersion: 3
     m_TexEnvs:
     - _MainTex:
-        m_Texture: {fileID: 2800000, guid: 431499babbb2468fa212560f1aec1a01, type: 3}
+        m_Texture: {fileID: 2800000, guid: 391590d39eb24c5b972746c467793d7c, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     m_Floats: []
@@ -1205,7 +1207,7 @@ RectTransform:
   - {fileID: 423614619}
   - {fileID: 366729255}
   m_Father: {fileID: 1079262600}
-  m_RootOrder: 2
+  m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
@@ -1352,7 +1354,7 @@ MonoBehaviour:
       m_Calls: []
     m_TypeName: UnityEngine.UI.MaskableGraphic+CullStateChangedEvent, UnityEngine.UI,
       Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
-  m_Sprite: {fileID: 21300002, guid: 807b9245acb4ec145914ae78af911bdf, type: 3}
+  m_Sprite: {fileID: 21300000, guid: dd664070aa5f0eb4c9236647f2189fc8, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -1556,7 +1558,7 @@ Transform:
   m_Children:
   - {fileID: 1853088660}
   m_Father: {fileID: 0}
-  m_RootOrder: 6
+  m_RootOrder: 7
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &956496873
 MonoBehaviour:
@@ -1571,6 +1573,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   questionsPanel: {fileID: 523734446}
   game: {fileID: 2141464184}
+  audio: {fileID: 2082890945}
 --- !u!1 &1043176451
 GameObject:
   m_ObjectHideFlags: 0
@@ -1819,11 +1822,10 @@ RectTransform:
   m_LocalScale: {x: 0, y: 0, z: 0}
   m_Children:
   - {fileID: 712099196}
-  - {fileID: 1250699170}
   - {fileID: 523734447}
   - {fileID: 1469954247}
   m_Father: {fileID: 0}
-  m_RootOrder: 11
+  m_RootOrder: 12
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}
@@ -1938,7 +1940,7 @@ MonoBehaviour:
       m_Calls: []
     m_TypeName: UnityEngine.UI.MaskableGraphic+CullStateChangedEvent, UnityEngine.UI,
       Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
-  m_Sprite: {fileID: 21300004, guid: 807b9245acb4ec145914ae78af911bdf, type: 3}
+  m_Sprite: {fileID: 21300006, guid: dd664070aa5f0eb4c9236647f2189fc8, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -2146,7 +2148,7 @@ Transform:
   m_Children:
   - {fileID: 1583522605}
   m_Father: {fileID: 0}
-  m_RootOrder: 8
+  m_RootOrder: 9
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &1224426129
 MonoBehaviour:
@@ -2161,80 +2163,47 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   questionsPanel: {fileID: 523734446}
   game: {fileID: 2141464184}
---- !u!1 &1250699169
+  audio: {fileID: 2082890945}
+--- !u!1 &1275749945
 GameObject:
   m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   serializedVersion: 5
   m_Component:
-  - component: {fileID: 1250699170}
-  - component: {fileID: 1250699172}
-  - component: {fileID: 1250699171}
-  m_Layer: 5
-  m_Name: ScoreText
+  - component: {fileID: 1275749947}
+  - component: {fileID: 1275749946}
+  m_Layer: 0
+  m_Name: QuizController
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
---- !u!224 &1250699170
-RectTransform:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 1250699169}
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children: []
-  m_Father: {fileID: 1079262600}
-  m_RootOrder: 1
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 1, y: 1}
-  m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: -28, y: -24}
-  m_SizeDelta: {x: 487.5, y: 71.69995}
-  m_Pivot: {x: 1, y: 1}
---- !u!114 &1250699171
+  m_IsActive: 1
+--- !u!114 &1275749946
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 1250699169}
+  m_GameObject: {fileID: 1275749945}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 708705254, guid: f70555f144d8491a825f0804e09c671c, type: 3}
+  m_Script: {fileID: 11500000, guid: fe2ee88059057a8439cb8ae2954f98f8, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_Material: {fileID: 0}
-  m_Color: {r: 1, g: 1, b: 1, a: 1}
-  m_RaycastTarget: 1
-  m_OnCullStateChanged:
-    m_PersistentCalls:
-      m_Calls: []
-    m_TypeName: UnityEngine.UI.MaskableGraphic+CullStateChangedEvent, UnityEngine.UI,
-      Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
-  m_FontData:
-    m_Font: {fileID: 12800000, guid: c4832c9a35476174b93d461803199f3d, type: 3}
-    m_FontSize: 14
-    m_FontStyle: 0
-    m_BestFit: 1
-    m_MinSize: 10
-    m_MaxSize: 50
-    m_Alignment: 5
-    m_AlignByGeometry: 0
-    m_RichText: 1
-    m_HorizontalOverflow: 0
-    m_VerticalOverflow: 0
-    m_LineSpacing: 1
-  m_Text: "Pontua\xE7\xE3o: 00"
---- !u!222 &1250699172
-CanvasRenderer:
+--- !u!4 &1275749947
+Transform:
   m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 1250699169}
+  m_GameObject: {fileID: 1275749945}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 3
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1337930033
 GameObject:
   m_ObjectHideFlags: 0
@@ -2295,7 +2264,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 12
+  m_RootOrder: 13
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1370790149
 GameObject:
@@ -2397,10 +2366,10 @@ MonoBehaviour:
   mInitializedInEditor: 1
   mDataSetPath: Vuforia/Habitat-Quiz.xml
   mExtendedTracking: 0
-  mAspectRatio: 0.7871094
+  mAspectRatio: 1
   mImageTargetType: 0
   mWidth: 5
-  mHeight: 3.9355469
+  mHeight: 5
 --- !u!4 &1370790155
 Transform:
   m_ObjectHideFlags: 0
@@ -2413,7 +2382,7 @@ Transform:
   m_Children:
   - {fileID: 381454028}
   m_Father: {fileID: 0}
-  m_RootOrder: 10
+  m_RootOrder: 11
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &1370790156
 MonoBehaviour:
@@ -2428,6 +2397,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   questionsPanel: {fileID: 523734446}
   game: {fileID: 2141464184}
+  audio: {fileID: 2082890945}
 --- !u!1 &1391489961
 GameObject:
   m_ObjectHideFlags: 0
@@ -2544,7 +2514,7 @@ Transform:
   m_Children:
   - {fileID: 1043176452}
   m_Father: {fileID: 0}
-  m_RootOrder: 4
+  m_RootOrder: 5
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &1391489968
 MonoBehaviour:
@@ -2559,6 +2529,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   questionsPanel: {fileID: 523734446}
   game: {fileID: 2141464184}
+  audio: {fileID: 2082890945}
 --- !u!1 &1440678481
 GameObject:
   m_ObjectHideFlags: 0
@@ -2671,7 +2642,7 @@ RectTransform:
   - {fileID: 1551536219}
   - {fileID: 1709938985}
   m_Father: {fileID: 1079262600}
-  m_RootOrder: 3
+  m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
@@ -2907,7 +2878,7 @@ Transform:
   m_Children:
   - {fileID: 2126293300}
   m_Father: {fileID: 0}
-  m_RootOrder: 9
+  m_RootOrder: 10
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &1531060874
 MonoBehaviour:
@@ -2922,6 +2893,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   questionsPanel: {fileID: 523734446}
   game: {fileID: 2141464184}
+  audio: {fileID: 2082890945}
 --- !u!1 &1538832853
 GameObject:
   m_ObjectHideFlags: 0
@@ -3271,7 +3243,7 @@ MonoBehaviour:
       m_Calls: []
     m_TypeName: UnityEngine.UI.MaskableGraphic+CullStateChangedEvent, UnityEngine.UI,
       Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
-  m_Sprite: {fileID: 21300004, guid: 807b9245acb4ec145914ae78af911bdf, type: 3}
+  m_Sprite: {fileID: 21300006, guid: dd664070aa5f0eb4c9236647f2189fc8, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -3686,6 +3658,15 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 66161b2956b5e474ca1d46d48f1efab8, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  audios:
+  - {fileID: 8300000, guid: 4939144903d11924bb54c8813019abc6, type: 3}
+  - {fileID: 8300000, guid: ed9049e5de38234488721831d13449f2, type: 3}
+  - {fileID: 8300000, guid: 9aa2beb42422cfb4492a1ea498d1a536, type: 3}
+  - {fileID: 8300000, guid: c98ad499e05a1cc42a660b0e6e98991c, type: 3}
+  - {fileID: 8300000, guid: 17cebf60425e8e74c849c762f832bd7d, type: 3}
+  - {fileID: 8300000, guid: db8bd947f0d748548a0407d439db5a25, type: 3}
+  - {fileID: 8300000, guid: 438e1ea1a6293fe4bbc02e0168256779, type: 3}
+  - {fileID: 8300000, guid: e70346b68d91d5444bd17759efcb3bfb, type: 3}
   AudioSource: {fileID: 2082890947}
   RightAnswerAudio: {fileID: 8300000, guid: 3bab99d35011de2488d12e9db4ffe7fd, type: 3}
   WrongAnswerAudio: {fileID: 8300000, guid: ccf0dd0c22a9201468b98c414caba54f, type: 3}
@@ -3701,7 +3682,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 3
+  m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!82 &2082890947
 AudioSource:
@@ -3713,7 +3694,7 @@ AudioSource:
   serializedVersion: 4
   OutputAudioMixerGroup: {fileID: 0}
   m_audioClip: {fileID: 0}
-  m_PlayOnAwake: 1
+  m_PlayOnAwake: 0
   m_Volume: 0.5
   m_Pitch: 1
   Loop: 0
@@ -3986,6 +3967,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9ee7ca3a06db87245ac53745a231990b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  quiz: {fileID: 1275749946}
   questionPanel: {fileID: 523734446}
   finalPanel: {fileID: 1469954246}
   questionDescription: {fileID: 195486290}
@@ -3999,3 +3981,6 @@ MonoBehaviour:
   - {fileID: 423614618}
   rightAnswersText: {fileID: 1184461689}
   wrongAnswersText: {fileID: 1440678483}
+  normalColor: {fileID: 21300006, guid: dd664070aa5f0eb4c9236647f2189fc8, type: 3}
+  rightAnswerColor: {fileID: 21300004, guid: dd664070aa5f0eb4c9236647f2189fc8, type: 3}
+  wrongAnswerColor: {fileID: 21300008, guid: dd664070aa5f0eb4c9236647f2189fc8, type: 3}

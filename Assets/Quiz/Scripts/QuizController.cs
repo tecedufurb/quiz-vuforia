@@ -1,20 +1,20 @@
 ﻿using System.Collections.Generic;
 using UnityEngine;
 
-public class QuizController {
+public class QuizController : MonoBehaviour{
 
 	private const string JSON_PATH = "Quiz/quizzesList";
-	private readonly Quiz quiz;
+	private Quiz quiz;
 	private int questionIndex;
 
-	public Question GetQuestion () {
-		return quiz.questions[questionIndex];
-	}
-
-	public QuizController () {
+	void Start () {
 		string jsonString = Resources.Load(JSON_PATH).ToString();
 		JsonHandler json = JsonHandler.CreateFromJSON(jsonString);
 		quiz = json.quiz;
+	}
+
+	public Question GetQuestion () {
+		return quiz.questions[questionIndex];
 	}
 
 	private void ResetQuestion () {
@@ -38,15 +38,6 @@ public class QuizController {
 	public bool IsQuestionListEmpty () {
 		return quiz.questions.Count == 0;
 	}
-
-	// public void RightAnswer () {
-	// 	RemoveQuestion(quiz.questions[questionIndex]);
-	// 	GetRandomQuestion();
-	// }
-
-	// public void WrongAnswer () {
-	// 	GetRandomQuestion();
-	// }
 
 	public void RemoveQuestion (Question questionR) {
 		quiz.questions.Remove(questionR);
